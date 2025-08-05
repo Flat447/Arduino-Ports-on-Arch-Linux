@@ -7,7 +7,7 @@
 Информация с вики Arch`а: [ссылка](https://wiki.archlinux.org/title/Arduino#Accessing_serial, "вот")
 
 1. Открываем терминал и прописываем: 
-```bash
+```shell
 sudo vim /etc/udev/rules.d/01-ttyusb.rules
 ```
 Создается файл __01-ttyusb.rules__
@@ -26,7 +26,7 @@ SUBSYSTEMS=="usb-serial", TAG+="uaccess"
 Данная "команда" сохранит файл и выйдет из vim`а
 
 4. После всего этого пишем в терминал
- ```bash
+ ```shell
 reboot #команда для перезагрузки
 ```
 
